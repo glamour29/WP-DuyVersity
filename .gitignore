@@ -1,1 +1,27 @@
-node_modules
+# Ignore node_modules
+node_modules/
+
+# Ignore uploads, logs, config
+wp-content/uploads/
+*.log
+wp-config.php
+
+# Ignore core WordPress files
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Ignore example themes/plugins
+/wp-content/themes/twenty*/
+/wp-content/plugins/hello.php
+
+# Optional: ignore all plugins and themes
+#/wp-content/plugins
+#/wp-content/themes
+
+# Ignore .htaccess
+.htaccess

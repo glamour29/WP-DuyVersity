@@ -27,4 +27,5 @@ class HeroSlider {
   }
 }
 
+
 export default HeroSlider

@@ -29,6 +29,7 @@
           )
         ));
 
+        
         if ($relatedProfessors->have_posts()) {
           echo '<hr class="section-break">';
         echo '<h2 class="headline headline--medium">' . get_the_title() . ' Professors</h2>';

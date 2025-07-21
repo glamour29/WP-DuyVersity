@@ -28,6 +28,7 @@ pageBanner(array(
 ?>
 </div>
 
+
 <?php get_footer();
 
 ?>

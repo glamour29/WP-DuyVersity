@@ -27,6 +27,7 @@
       'child_of' => get_the_ID()
     ));
 
+    
     if ($theParent or $testArray) { ?>
     <div class="page-links">
       <h2 class="page-links__title"><a href="<?php echo get_permalink($theParent); ?>"><?php echo get_the_title($theParent); ?></a></h2>

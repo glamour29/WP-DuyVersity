@@ -27,6 +27,7 @@ pageBanner(array(
     )
   ));
 
+  
   while($pastEvents->have_posts()) {
     $pastEvents->the_post(); 
     get_template_part('template-parts/content-event');

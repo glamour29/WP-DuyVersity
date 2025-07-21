@@ -32,6 +32,7 @@
             'author' => get_current_user_id()
           ));
 
+          
           while($userNotes->have_posts()) {
             $userNotes->the_post(); ?>
             <li data-id="<?php the_ID(); ?>">

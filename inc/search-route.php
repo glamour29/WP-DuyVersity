@@ -62,6 +62,7 @@ function universitySearchResults($data) {
       ));
     }
 
+    
     if (get_post_type() == 'campus') {
       array_push($results['campuses'], array(
         'title' => get_the_title(),

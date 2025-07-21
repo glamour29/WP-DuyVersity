@@ -15,4 +15,5 @@ pageBanner(array(
 
 <?php get_footer();
 
+
 ?>

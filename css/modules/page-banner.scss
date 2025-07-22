@@ -1,5 +1,5 @@
 .page-banner {
-  background-color: #000;
+  background-color: #000000;
   padding: 80px 0 40px 0;
   position: relative;
   @include atSmall {
@@ -23,7 +23,7 @@
   }
 
   &__bg-image {
-    opacity: 0.33;
+    opacity: 0.8;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -45,4 +45,5 @@
   &__intro p {
     margin: 0;
   }
+  
 }

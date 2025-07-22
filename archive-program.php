@@ -2,8 +2,8 @@
 
 get_header();
 pageBanner(array(
-  'title' => 'All Programs',
-  'subtitle' => 'There is something for everyone. Have a look around.'
+  'title' => 'Tất cả chương trình đào tạo',
+  'subtitle' => 'Luôn có điều gì đó dành cho bạn. Cùng xem thử xung quanh nhé!.'
 ));
  ?>
 

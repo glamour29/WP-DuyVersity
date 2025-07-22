@@ -2,8 +2,8 @@
 
 get_header();
 pageBanner(array(
-  'title' => 'All Events',
-  'subtitle' => 'See what is going on in our world.'
+  'title' => 'Tất cả các sự kiện',
+  'subtitle' => 'Xem thử có gì mới ở DuyVersity nhé!'
 ));
  ?>
 
@@ -19,7 +19,7 @@ pageBanner(array(
 
 <hr class="section-break">
 
-<p>Looking for a recap of past events? <a href="<?php echo site_url('/past-events') ?>">Check out our past events archive</a>.</p>
+<p>Xem lại những hoạt động trước đó nhé?<a href="<?php echo site_url('/past-events') ?>">Xem lại những sự kiện trước đây tại DuyVersity</a>.</p>
 
 </div>
 

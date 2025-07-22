@@ -1,13 +1,14 @@
 {
-  "name": "fictional-university-theme",
+  "name": "duyversity-theme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "wp-scripts build",
+    "build": "wp-scripts build && sass scss/style.scss style.css",
     "start": "wp-scripts start",
     "dev": "wp-scripts start",
     "devFast": "wp-scripts start",
+    "watch": "sass --watch scss/style.scss:style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,4 +21,3 @@
     "normalize.css": "^8.0.1"
   }
 }
-

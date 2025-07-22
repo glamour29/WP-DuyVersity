@@ -25,8 +25,7 @@ class Like {
       this.createLike(currentLikeBox)
     }
   }
-
-  
+ 
   async createLike(currentLikeBox) {
     try {
       const response = await axios.post(universityData.root_url + "/wp-json/university/v1/manageLike", { "professorId": currentLikeBox.getAttribute("data-professor") })
